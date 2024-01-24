@@ -7,11 +7,11 @@
  */
 void swap_int(int *a, int *b)
 {
-        int tmp;
+	int tmp;
 
-        tmp = *a;
-        *a = *b;
-        *b = tmp;
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
 }
 /**
  * bubble_sort - Sorts an array of integers in ascending order
